@@ -6,6 +6,8 @@
 
 ![image](images/show.png)
 
+[![image](https://img.shields.io/github/downloads/MX233/AntiRecall/total)](https://github.com/MX233/AntiRecall/releases)
+
 # 一定要先看完README
 
 ## 本插件功能
@@ -54,5 +56,8 @@ perm add u<qq号> top.cutestar.antirecall:command.ar
 ```
 
 设置权限后请使用`ar reload`重载
+
+### 配置
+> 请见配置文件注释
 
 用户QQ群:[`589775128`](https://jq.qq.com/?_wv=1027&k=dNKLKgIs)
