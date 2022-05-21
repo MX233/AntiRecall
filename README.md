@@ -20,12 +20,12 @@
 ## 指令
 **前缀一般是 `/`**
 
-| 指令                       | 作用           | 示例                                   |
-|:-------------------------|:-------------|:-------------------------------------|
-| `ar` `eb` `<true/false>` | `设置开启或关闭`    | ar en true                           |
-| `ar` `ca`  `<time>`      | `设置消息缓存时间`   | ar ca 30                             |
-| `ar` `fm`  `<text>`      | `设置转发消息的消息链` | ${sender}发送了一条${type}消息:\n${message} |
-| `ar` `reload`            | `重载配置`       | -                                    |
+| 指令                       | 作用           | 示例                                         |
+|:-------------------------|:-------------|:-------------------------------------------|
+| `ar` `en` `<true/false>` | `设置开启或关闭`    | ar en true                                 |
+| `ar` `ca`  `<time>`      | `设置消息缓存时间`   | ar ca 30                                   |
+| `ar` `fm`  `<text>`      | `设置转发消息的消息链` | ar fm ${sender}发送了一条${type}消息:\n${message} |
+| `ar` `reload`            | `重载配置`       | -                                          |
 
 ## 首次使用
 请使用[Mirai Console Backend - Permissions](https://docs.mirai.mamoe.net/console/Permissions.html)
