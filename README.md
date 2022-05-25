@@ -1,63 +1,64 @@
-# AntiRecall ·´³·»Ø²å¼ş
+# AntiRecall åæ’¤å›æ’ä»¶
 
-ÕâÊÇÒ»¸ö»ùÓÚ[`mirai`](https://github.com/mamoe/mirai) »úÆ÷ÈË¿ò¼ÜµÄ²å¼ş
+è¿™æ˜¯ä¸€ä¸ªåŸºäº[`mirai`](https://github.com/mamoe/mirai) æœºå™¨äººæ¡†æ¶çš„æ’ä»¶
 
-²»ÏëÕÛÌÚÄ£¿é? ÔÚmiraiÉÏ°²×°±¾²å¼ş½øĞĞ¼òµ¥ÅäÖÃ¼´¿ÉÊµÏÖ
+ä¸æƒ³æŠ˜è…¾æ¨¡å—? åœ¨miraiä¸Šå®‰è£…æœ¬æ’ä»¶è¿›è¡Œç®€å•é…ç½®å³å¯å®ç°
 
 ![image](images/show.png)
 
+## ä¸‹è½½
 [![image](https://img.shields.io/github/downloads/MX233/AntiRecall/total)](https://github.com/MX233/AntiRecall/releases)
 
-# Ò»¶¨ÒªÏÈ¿´ÍêREADME
+# ä¸€å®šè¦å…ˆçœ‹å®ŒREADME
 
-## ±¾²å¼ş¹¦ÄÜ
-- »ñÈ¡±»³·»ØµÄÏûÏ¢
-- ÉÁÕÕÆÆ½â
+## æœ¬æ’ä»¶åŠŸèƒ½
+- è·å–è¢«æ’¤å›çš„æ¶ˆæ¯
+- é—ªç…§ç ´è§£
 
-## Ç°ÖÃ²å¼ş
+## å‰ç½®æ’ä»¶
 - [chat-command](https://github.com/project-mirai/chat-command)
 
-## Ö¸Áî
-**Ç°×ºÒ»°ãÊÇ `/`**
+## æŒ‡ä»¤
+**å‰ç¼€ä¸€èˆ¬æ˜¯ `/`**
 
-| Ö¸Áî                       | ×÷ÓÃ           | Ê¾Àı                                         |
+| æŒ‡ä»¤                       | ä½œç”¨           | ç¤ºä¾‹                                         |
 |:-------------------------|:-------------|:-------------------------------------------|
-| `ar` `en` `<true/false>` | `ÉèÖÃ¿ªÆô»ò¹Ø±Õ`    | ar en true                                 |
-| `ar` `ca`  `<time>`      | `ÉèÖÃÏûÏ¢»º´æÊ±¼ä`   | ar ca 30                                   |
-| `ar` `fm`  `<text>`      | `ÉèÖÃ×ª·¢ÏûÏ¢µÄÏûÏ¢Á´` | ar fm ${sender}·¢ËÍÁËÒ»Ìõ${type}ÏûÏ¢:\n${message} |
-| `ar` `reload`            | `ÖØÔØÅäÖÃ`       | -                                          |
+| `ar` `en` `<true/false>` | `è®¾ç½®å¼€å¯æˆ–å…³é—­`    | ar en true                                 |
+| `ar` `ca`  `<time>`      | `è®¾ç½®æ¶ˆæ¯ç¼“å­˜æ—¶é—´`   | ar ca 30                                   |
+| `ar` `fm`  `<text>`      | `è®¾ç½®è½¬å‘æ¶ˆæ¯çš„æ¶ˆæ¯é“¾` | ar fm ${sender}å‘é€äº†ä¸€æ¡${type}æ¶ˆæ¯:\n${message} |
+| `ar` `reload`            | `é‡è½½é…ç½®`       | -                                          |
 
-## Ê×´ÎÊ¹ÓÃ
-ÇëÊ¹ÓÃ[Mirai Console Backend - Permissions](https://docs.mirai.mamoe.net/console/Permissions.html)
-ÉèÖÃÈ¨ÏŞ
+## é¦–æ¬¡ä½¿ç”¨
+è¯·ä½¿ç”¨[Mirai Console Backend - Permissions](https://docs.mirai.mamoe.net/console/Permissions.html)
+è®¾ç½®æƒé™
 
-### Ìí¼ÓÒ»¸ö±»¼àÌıÕß
-> µ±±»¼àÌıÕß·¢ËÍÏûÏ¢ºó»á±»»º´æ»ò×ª·¢
+### æ·»åŠ ä¸€ä¸ªè¢«ç›‘å¬è€…
+> å½“è¢«ç›‘å¬è€…å‘é€æ¶ˆæ¯åä¼šè¢«ç¼“å­˜æˆ–è½¬å‘
 ```
-perm add m<ÈººÅ>.* top.cutestar.antirecall:monitored
-//Ò»¸öÊ¾Àı:perm add m123456789.* top.cutestar.antirecall:monitored
+perm add m<ç¾¤å·>.* top.cutestar.antirecall:monitored
+//ä¸€ä¸ªç¤ºä¾‹:perm add m123456789.* top.cutestar.antirecall:monitored
 ```
-¼àÌıËùÓĞÈº
+ç›‘å¬æ‰€æœ‰ç¾¤
 ```
 perm add m* top.cutestar.antirecall:monitored
 ```
 
-### Ìí¼ÓÒ»¸öÏûÏ¢½ÓÊÕÕß
-> µ±³öÏÖÑ¡ÖĞÀàĞÍµÄÏûÏ¢Ê±£¬´ËÏûÏ¢»á±»×ª·¢¸øÏûÏ¢½ÓÊÕÕß
+### æ·»åŠ ä¸€ä¸ªæ¶ˆæ¯æ¥æ”¶è€…
+> å½“å‡ºç°é€‰ä¸­ç±»å‹çš„æ¶ˆæ¯æ—¶ï¼Œæ­¤æ¶ˆæ¯ä¼šè¢«è½¬å‘ç»™æ¶ˆæ¯æ¥æ”¶è€…
 ```
-perm add <±»Ğí¿ÉÈËID> top.cutestar.antirecall:receiver
-//Ò»¸ö×ª·¢µ½ºÃÓÑµÄÊ¾Àı:perm add f123456789 top.cutestar.antirecall:receiver
-//Ò»¸ö×ª·¢µ½ÈºµÄÊ¾Àı:perm add g123456789 top.cutestar.antirecall:receiver
-```
-
-### Ìí¼ÓÃüÁîÊ¹ÓÃÈ¨ÏŞ
-```
-perm add u<qqºÅ> top.cutestar.antirecall:command.ar
+perm add <è¢«è®¸å¯äººID> top.cutestar.antirecall:receiver
+//ä¸€ä¸ªè½¬å‘åˆ°å¥½å‹çš„ç¤ºä¾‹:perm add f123456789 top.cutestar.antirecall:receiver
+//ä¸€ä¸ªè½¬å‘åˆ°ç¾¤çš„ç¤ºä¾‹:perm add g123456789 top.cutestar.antirecall:receiver
 ```
 
-ÉèÖÃÈ¨ÏŞºóÇëÊ¹ÓÃ`ar reload`ÖØÔØ
+### æ·»åŠ å‘½ä»¤ä½¿ç”¨æƒé™
+```
+perm add u<qqå·> top.cutestar.antirecall:command.ar
+```
 
-### ÅäÖÃ
-> Çë¼ûÅäÖÃÎÄ¼ş×¢ÊÍ
+è®¾ç½®æƒé™åè¯·ä½¿ç”¨`ar reload`é‡è½½
 
-ÓÃ»§QQÈº:[`589775128`](https://jq.qq.com/?_wv=1027&k=dNKLKgIs)
+### é…ç½®
+> è¯·è§é…ç½®æ–‡ä»¶æ³¨é‡Š
+
+ç”¨æˆ·QQç¾¤:[`589775128`](https://jq.qq.com/?_wv=1027&k=dNKLKgIs)
